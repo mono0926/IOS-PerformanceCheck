@@ -1,0 +1,15 @@
+platform :ios, "7.0"
+
+inhibit_all_warnings!
+
+def import
+  pod 'MagicalRecord'
+end
+
+target :PerformanceCheck, :exclusive => true do
+  import
+end
+
+target :PerformanceCheckTests, :exclusive => true do
+  import
+end
