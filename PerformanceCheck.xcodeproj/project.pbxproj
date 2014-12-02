@@ -11,6 +11,8 @@
 		67B8904FDD3C4309AF36C33E /* libPods-PerformanceCheckTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F45050093E1F44CF8A604138 /* libPods-PerformanceCheckTests.a */; };
 		FE0A8B851A2B30D500C129E6 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0A8B821A2B30D500C129E6 /* Member.swift */; };
 		FE0A8B861A2B30D500C129E6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0A8B831A2B30D500C129E6 /* Model.xcdatamodeld */; };
+		FE1597DF1A2C737300D6EBD7 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1597DE1A2C737300D6EBD7 /* CoreDataTests.swift */; };
+		FE1597E11A2C746B00D6EBD7 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1597E01A2C746B00D6EBD7 /* CoreDataTests.m */; };
 		FEB57F4E1A2B3292008CB299 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE0A8B831A2B30D500C129E6 /* Model.xcdatamodeld */; };
 		FEBE856E1A2B1C38001D8635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE856D1A2B1C38001D8635 /* AppDelegate.swift */; };
 		FEBE85701A2B1C38001D8635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE856F1A2B1C38001D8635 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 		F45050093E1F44CF8A604138 /* libPods-PerformanceCheckTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerformanceCheckTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0A8B821A2B30D500C129E6 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		FE0A8B841A2B30D500C129E6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FE1597DE1A2C737300D6EBD7 /* CoreDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
+		FE1597E01A2C746B00D6EBD7 /* CoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
 		FEBE85681A2B1C38001D8635 /* PerformanceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBE856C1A2B1C38001D8635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEBE856D1A2B1C38001D8635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,8 +145,10 @@
 				FE0A8B821A2B30D500C129E6 /* Member.swift */,
 				FE0A8B831A2B30D500C129E6 /* Model.xcdatamodeld */,
 				FEBE85831A2B1C38001D8635 /* PerformanceCheckTests.swift */,
+				FE1597DE1A2C737300D6EBD7 /* CoreDataTests.swift */,
 				FEBE85811A2B1C38001D8635 /* Supporting Files */,
 				FEBE858E1A2B1E3F001D8635 /* PerfomanceCheckTests.m */,
+				FE1597E01A2C746B00D6EBD7 /* CoreDataTests.m */,
 				FEBE858D1A2B1E3F001D8635 /* PerformanceCheckTests-Bridging-Header.h */,
 			);
 			path = PerformanceCheckTests;
@@ -337,6 +343,8 @@
 				FE0A8B851A2B30D500C129E6 /* Member.swift in Sources */,
 				FEBE85841A2B1C38001D8635 /* PerformanceCheckTests.swift in Sources */,
 				FE0A8B861A2B30D500C129E6 /* Model.xcdatamodeld in Sources */,
+				FE1597E11A2C746B00D6EBD7 /* CoreDataTests.m in Sources */,
+				FE1597DF1A2C737300D6EBD7 /* CoreDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
