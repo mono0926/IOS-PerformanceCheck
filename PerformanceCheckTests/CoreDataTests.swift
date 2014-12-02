@@ -25,6 +25,8 @@ class CoreDataTests: XCTestCase {
     
     override func tearDown() {
         Member.MR_deleteAllMatchingPredicate(nil)
+        let moc = NSManagedObjectContext.MR_contextForCurrentThread()
+        moc.MR_saveToPersistentStoreAndWait()
         super.tearDown()
     }
     

@@ -31,6 +31,8 @@
 
 - (void)tearDown {
     [Member MR_deleteAllMatchingPredicate:nil];
+    NSManagedObjectContext* moc = [NSManagedObjectContext MR_contextForCurrentThread];
+    [moc MR_saveToPersistentStoreAndWait];
     [super tearDown];
 }
 
